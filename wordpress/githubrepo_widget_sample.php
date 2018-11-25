@@ -9,10 +9,6 @@ function create_githubrepo_widget() {
          foreach($rows as $row) {
                        $url = $row["html_url"];
                        $name = $row["name"];
-                       if ($name == "pandanote-info.github.io") {
-                          $url = "https://sidestory.pandanote.info/";
-                          $name = "sidestory.pandanote.info";
-                       }
                        $snippet .= '<a class="pandanote-info-github" href="'.$url.'"><span style="color:#1E3E8A;font-weight:bold;font-size:130%;">'.$name.'</span></a><br/>'.$row["description"].'<hr/>';
          }
          return $snippet . '</div><div class="clear"></div>';
