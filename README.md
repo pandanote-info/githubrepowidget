@@ -1,0 +1,2 @@
+# githubrepowidget
+Wordpressのサイドバー用のGitHubリポジトリのウィジェット
